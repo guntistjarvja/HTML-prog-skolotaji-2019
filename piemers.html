@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Piemērs</title>
+  </head>
+  <body>
+    
+      <script type="text/javascript">
+        const a = 5;
+        let b = 5;
+        let r=10;
+        let pazinojums;
+
+        function r_l_garums(r) {
+            const C=2*Math.PI*r;
+    return `Rinka linijas garums ar radiusu ${r} ir ${C.toFixed(2)}`
+    }
+
+    function r_l_garums2() {
+            const r=Number(prompt('ievadi vertibu'));
+            const C=2*Math.PI*r;
+    return `Rinka linijas garums ar radiusu ${r} ir ${C.toFixed(2)}`
+    }
+
+        function hipotenuza(a, b) {
+    return Math.sqrt(a * a + b * b);
+}
+
+function summa(a, b) {
+    return a + b;
+}
+
+console.log(hipotenuza(3,4));
+console.log(summa(3,4));
+console.log(r_l_garums(10));
+console.log(r_l_garums2());
+ 
+// if (a !== b) {
+        // pazinojums = `${a} nav vienāds ar ${b}`;
+       
+    
+// } else if (a===b){
+    // pazinojums = a + " ir vienads ar " + b;
+    
+// }
+// console.log(pazinojums);
+
+// if (!a) {
+
+// }
+
+    </script>
+  </body>
+</html>
